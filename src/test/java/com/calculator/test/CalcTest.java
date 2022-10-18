@@ -18,7 +18,6 @@ public class CalcTest {
 
     @Test
     void calc(){
-        //Assertions.assertEquals(42662,calcService.calculate(BigDecimal.valueOf(50000),25).intValue());
         Assertions.assertEquals(new BigDecimal("42662.25"),calcService.calculate(BigDecimal.valueOf(50000),25));
         Assertions.assertEquals(new BigDecimal("24428.04"),calcService.calculate(BigDecimal.valueOf(25562),28));
         Assertions.assertEquals(new BigDecimal("15481.34"),calcService.calculate(BigDecimal.valueOf(32400),14));
